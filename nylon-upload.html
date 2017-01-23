@@ -83,7 +83,7 @@
             },
             getList:function(){
                 var link = '/upload/list/'+this.refPath;
-                if(typeof this.targetList !== "undifined"){
+                if(typeof this.targetList !== "undefined"){
                     link = this.targetList;
                 }
                 axios.get(link)
